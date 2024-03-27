@@ -44,7 +44,7 @@ BODY_SURFACE.fill(GREEN)
 
 mixer.init(44100, 32, 2)
 __MUSICS = ["pipi.wav", "FuckMachine.wav","SourisDeMetal.wav","Servidor.wav"]
-MUSICS = list(map(lambda name: mixer.Sound(file = "musics/" + name), __MUSICS))
+MUSICS = list(map(lambda name: mixer.Sound(file = "./musics/" + name), __MUSICS))
 
 OOF = mixer.Sound(file = "musics/oof.wav")
 
