@@ -1,4 +1,8 @@
 #include <stdio.h>
+#include <>
+
+initSDL()
+
 
 int	main(void)
 {
