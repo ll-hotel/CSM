@@ -1,18 +1,25 @@
-NAME = maze.exe
-SRC = $(addprefix src/, main.c)
+NAME	= maze
+SRC		= $(addprefix src/, main.c)
 
-CFLAGS		:=	-Wall -Wextra -Werror
-IFLAGS		:=	-Iinclude
-LFLAGS		:=	
+CFLAGS	:=	-Wall -Wextra -Werror
+IFLAGS	:=	-Iinclude
+LFLAGS	:=	
 
 
-all: $(NAME) 
+all:
+	@echo 'Choose your OS:'
+	@echo ' - windows'
+	@echo ' - linux'
 
+windows: $(NAME).exe
+
+linux: $(NAME)
+
+$(NAME).exe: $(SRC)
+	gcc $(CFLAGS) $(IFLAGS) -o $@ $(SRC) $(LFLAGS)
 
 $(NAME): $(SRC)
 	gcc $(CFLAGS) $(IFLAGS) -o $@ $(SRC) $(LFLAGS)
-	
 
 clean:
-	rm $(NAME)
-
+	rm -f $(NAME) $(NAME).exe
