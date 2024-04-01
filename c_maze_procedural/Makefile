@@ -6,6 +6,7 @@ SOURCES		=	$(addprefix $(SOURCE_DIR), \
 					app_execute.c \
 					app_init.c \
 					app_loop.c \
+					app_log.c \
 					app_on_event.c \
 					app_render.c \
 					main.c \
