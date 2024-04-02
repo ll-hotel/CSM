@@ -65,7 +65,13 @@ endif
 
 .PHONY: fclean
 fclean:	clean
-	rm -f $(NAME) $(NAME).exe
+ifneq ("$(wildcard $(NAME).exe)","")
+	rm -f $(NAME).exe
+else
+ifneq ("$(wildcard $(NAME))","")
+	rm -f $(NAME)
+endif
+endif
 
 .PHONY: re
 re:	fclean
