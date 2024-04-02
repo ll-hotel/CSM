@@ -1,0 +1,2 @@
+Va falloir se mettre d'accord sur ce quon fait sinon ca va etre hyper chiant pour merge.
+La, c'est que sur ta branche donc c'est ok, mais on pourra pas continuer longtemps a faire ca.

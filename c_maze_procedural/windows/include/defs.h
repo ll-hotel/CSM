@@ -1,0 +1,27 @@
+#ifndef DEFS_H
+# define DEFS_H
+# define MAP_TITLE_SIZE 48
+
+# define MAP_WIDTH 33
+# define MAP_HEIGHT 19
+
+# define MAP_RENDER_WIDTH 32
+# define MAP_RENDER_HEIGHT 18
+
+# define MAP_RENDER_X ((SCREEN_WIDTH - (MAP_RENDER_WIDTH * MAP_TITLE_SIZE)) /2)
+# define MAP_RENDER_Y ((SCREEN_HEIGHT - (MAP_RENDER_HEIGHT * MAP_TITLE_SIZE)) /2)
+
+# define TITLE_HOLE 0
+# define TITLE_GROUND 1
+# define TITLE_WALL 50
+
+# define MAX_NAME_LENGTH 100
+# define MAX_TILES 1
+
+enum 
+{
+	ET_UKNOWN,
+	ET_PLAYER
+};
+
+#endif
