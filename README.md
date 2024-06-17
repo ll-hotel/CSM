@@ -1,12 +1,4 @@
-# Cloning the repo
-### Requirements
-Have installed `git`
-### Linux
-`git clone git@github.com:ll-hotel/CSM.git`
-### Windows
-`git clone git@github.com:ll-hotel/CSM.git`
-
-# Structure
- - Each directory in the root directory shall be considered as a **full project**.
- - Each **project** shall be independent
- - Before adding any form of modifications to a project, ensure to have raised an **issue** and **branched**
+# CSM
+This is a group of projects created by the CSM team.
+ - Each submodule in the root directory is a full project.
+ - Each project is independent.
