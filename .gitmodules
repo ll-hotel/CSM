@@ -1,3 +1,6 @@
 [submodule "procedural-maze"]
 	path = procedural-maze
 	url = https://github.com/ll-hotel/CSM-procedural-maze.git
+[submodule "py-snake"]
+	path = py-snake
+	url = https://github.com/ll-hotel/CSM-py-snake.git
